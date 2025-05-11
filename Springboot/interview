@@ -1,0 +1,90 @@
+Java Techie Spring Interview Questions
+------------------------------------------------------
+
+Part-1
+-----------
+0:57 - Why will you choose Spring Boot over Spring Framework?
+12:57 - What all Spring Boot starters you have used or what all modules you have worked on?
+15:38 - How will you run Spring Boot application?
+21:48 - What is the purpose of the @SpringBootApplication annotation in spring boot application?
+30:33 - Can I directly use above 3 annotation in my main class, instead of using @SpringBootApplication annotation, if yes will my application work as expected
+32:33 - What is AutoConfiguration in Spring Boot?
+49:50 - How can disable a specific auto configuration class in Spring Boot?
+53:50 - How can you customize the default configuration in Spring Boot?
+56:08 - How Spring Boot run() method works internally?
+1:07:51 - What is CommandLineRunner in Spring Boot
+
+Part-2
+----------
+1:08 - Can you Explain the purpose of Stereotype annotations in the spring framework
+6:32 - How can you define bean in spring framework?
+9:07 - What is dependency Injection?
+16:17 - How many ways we can perform dependency injection in Spring or Spring Boot?
+20:49 - Where you would choose to use setter injection over constructor injection, and vice versa
+32:00 - Can you provide an example of a real world use case where @PostConstruct is particularly useful
+35:50 - How can we dynamically load values in a Spring Boot application?
+42:43 - Can you explain the key differences between yaml and properties file, and in what scenario you might prefer one format over the other?
+48:29 - What is the difference between yml & yaml?
+50:10 - If I will configure same values in both properties then which value will be loaded in Spring Boot or who will load first propeties or yml file?
+56:20 - How to load external properties in Spring Boot?
+59:23 - How map or bind config properties to java object?
+
+Part-3
+----------
+0:44 - How will you resolve bean dependency ambiguity?
+4:22 - Can we avoid this dependency ambiguity without using @Qualifier?
+6:14 -  What is bean scope and can you explain different type of bean scope?
+21:58 - How to define custom bean scope?
+27:55 - Can you provide a few real-time use cases for when to choose Singleton scope and Prototype scope
+32:21 - Can we inject prototype bean in singleton bean? if yes what will happen if we inject prototype bean in singleton bean?
+40:20 - What is difference between spring singleton and plain singleton?
+41:20 -  What is the purpose of  the BeanPostProcessor interface in Spring, and how can you use it to customize bean initialization and destruction?
+
+
+Part-4
+----------
+0:42 - Have you worked on Restful web services? If yes What all HTTP methods have you used in your project?
+1:41 - How can you specify the HTTP method type for your REST endpoint?
+6:09 - Can you design a rest endpoint, Assume that you have a product database, and your task is to create an API to filter a list of products by productType.
+11:12 - Design endpoints in a way that takes "productType" as input. If the user provides this input, the endpoint should filter products based on the specified condition. If "productType" is not provided, the endpoint should return all the products.
+16:32 - What is the difference between @PathVariable and @RequestParam?
+18:49 - Why did you use @RestController and why not @Controller?
+26:22 - How can we deserialize a JSON request payload into an object within a Spring MVC controller?
+30:39 - Can we perform update operation in POST http method if yes then why do we need PUT mapping or put http method?
+35:31 - Can we pass Request Body in GET HTTP method?
+37:24 - How can we perform content negotiation (XML/JSON) in Rest endpoint?
+41:15 - What all status code you have observed in your application?
+44:41 - How can you customize the status code for your endpoint?
+46:57 - How can you enable cross origin?
+50:47 - How can you upload a file in spring?
+53:52 - How do you maintain versioning for your REST API?
+1:00:29 - How will you document your REST API?
+1:04:52 - How can you hide certain REST endpoints to prevent them from being exposed externally?
+1:08:07 - How will you consume restful API?
+
+Part-5
+----------
+0:23 - How will you handle exceptions in your project?
+13:30 - How can you avoid defining handlers for multiple exceptions, or what is the best practise for handling exceptions?
+19:15 - How will you validate or sanatize your input payload?
+27:17 - How can you populate validation error message to the end user?
+31:15 - How can you define custom bean validatation?
+35:08 - use case: lets say you find a bug in production environment and now you want to debug the scenario, how can you do that from your local?
+44:23 - How can you enable a specific environment without using profiles? OR what is the alternative to profiles to achieving same use case?
+49:36 - What is the difference between @Profile and @Conditional?
+50:53 - What is AOP?
+54:12 - What is pointcut & join points in AOP?
+56:30 - What are different type of advice?
+1:06:34 - use case - Can I use AOP of evaluate performance of a method or is this possible to design a logging framework to capture request and response body of a method?
+
+Part-6
+-----------
+0:49 : How does your application interact with the database and which framework are you using ?
+11:22 :  why is it important to configure a physical naming strategy ? (starts inline with que.61)
+14:07 : what are the key benefits of using spring data JPA ?
+21:00 : What are the differences between hibernate JPA and Spring Data JPA ?
+24:19 : How can you connect multiple databases or data sources in a single application ?
+39:48 : What are the different ways to define custom queries in spring Data JPA ?
+56:20 : How will you define entity relationships or association mapping in spring Data JPA ?
+1:08:11 : is this possible to execute join query in spring data jpa ? if yes, how can you add some insights ?
+1:19:22 : How will you implement pagination and sorting in Spring Data JPA ?

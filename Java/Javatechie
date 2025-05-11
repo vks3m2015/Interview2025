@@ -1,0 +1,40 @@
+00:06 The pillar of OOPs concept includes encapsulation, inheritance, polymorphism, and abstraction.
+02:53 This subpart explains encapsulation, inheritance, and polymorphism in Java.
+07:51 Dynamic polymorphism allows multiple implementations of the inventory service
+10:25 Overriding static and private methods is not allowed
+15:33 Using default methods in Java interfaces for flexible implementation
+17:51 Accessing parent property and overriding default methods
+22:25 The finalize method is not called if the system GC is done.
+24:35 Proper implementation of equals and hashCode methods is necessary to avoid duplicates in collections.
+29:25 Compile time exceptions can be handled at compile time
+31:51 FileNotFound exception is a checked exception and not a compile time exception.
+36:30 Delegating exception handling to next method caller
+38:29 Understanding the order of exception hierarchy is important while handling exceptions in Java.
+42:48 finally block can be stopped from executing
+45:10 String objects can be created using the new keyword or string literal
+49:54 String is immutable
+52:13 String class is immutable in Java
+56:16 String buffer and StringBuilder are mutable, while String is immutable.
+58:38 Creating an immutable class: Setter method write only getter method
+1:03:23 Demonstrating how to avoid modifying a Date object in Java
+1:05:48 Handling mutability in Java objects
+1:10:42 Using the clone method to create a separate copy of an object.
+1:12:58 It is recommended to use char array instead of String for storing passwords.
+1:17:21 Writing custom marker interfaces in Java
+1:19:18 The difference between AR list and linked list
+1:23:23 Using generics with lists helps in avoiding type cast issues.
+1:25:33 Creating a custom AR list to disallow duplicates
+1:30:36 Set implementation allows duplicate objects if equals and hashCode methods are not overridden for custom objects.
+1:32:58 The contract between equals and hashCode methods determines if duplicate objects are allowed
+1:37:42 Sorting objects based on ID and name using Comparable and Comparator
+1:40:22 Creating Comparators in Java for sorting objects based on different attributes.
+1:45:56 Explanation of custom sorting using comparator
+1:48:16 Fail-fast and fail-safe iterators in Java
+1:52:42 ConcurrentHashMap is used when parallel thread access and modification is required.
+1:54:42 ConcurrentHashMap does not allow adding null keys or values and throws a null pointer exception immediately.
+1:58:58 ConcurrentHashMap uses segment locking or bucket locking
+2:01:14 ConcurrentHashMap is preferred over Hashtable due to its locking mechanism.
+2:05:46 Hing Collision
+2:07:54 Hash map internally uses linked list nodes.
+2:12:03 Understanding TreeMap in Java
+2:14:50 The compareTo() method compares two objects and returns -1, 0, or 1 based on the comparison result.
