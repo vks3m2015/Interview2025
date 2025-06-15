@@ -1,0 +1,85 @@
+
+Java
+======
+Garbage Collector ? How does it work?
+Types of class loader
+Why used constructor
+How to use non static variable from a static context
+Cloning
+Can we declare a constructor abstract final static
+Transient keyword in java
+
+
+
+
+REST
+=======
+What’s diff between PUT and POST, can we use them interchangeably
+REST is Synchronous or ASynchronous
+
+Mechanism for exception handling while calling external endpoint from our application
+Security Mechanism for calling any external endpoint from our applicaion
+
+
+SpringBoot
+-------------
+How to exclude default configurations of spring boot
+Actuators???
+
+Disadvantages of spring boot
+
+What default library is used in Spring for serializing and deserializing??
+Bean Scopes
+How to handle XML content type in REST through spring boot
+What changes do we need to make to make an application spring boot app?
+How to connect to database in spring boot app
+Pagination in spring boot?
+Write a controller that has only access to admin?
+
+DB
+--------
+What are triggers.. Types of triggers
+How exceptions are handled in Procedures
+Find reporting managers corresponding employees
+Database optimization
+
+
+Programing
+-----------------
+Reverse a list without iteration
+1,2,3,4,5 -> 1,2,2,4,5 find which one is duplicate or which element is overriden
+
+
+
+
+—------
+
+How to implement - thousands of files of 4MB each having user data. Need to read the files and store the data into the database?
+
+How to implement - api fetching NAV of a stock..if its down then how to handle on ui side this scenario?
+
+
+
+
+
+
+
+Frontend
+==========
+
+Closures
+Hoisting
+Prototype object
+How to create a object
+Eager loading and Lazy loading
+
+
+
+1.Print Odd - Even numbers using two different threads. One thread printing Odd numbers another printing Even one by one Ex -
+            1 - by thread 1
+             2 -by thread 2
+             3  -by thread 1 and so on
+
+Blocking Queue, ConcurrentHashMap
+Singleton class thread safe
+Volatile

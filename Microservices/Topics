@@ -1,0 +1,13 @@
+Design Pattern
+API Gateway
+Service Discovery
+Config server
+Fault Tolerance
+   -Circuit Breaker
+   -Resilience4j
+Distributed Transaction
+Log aggregation
+Log Tracing
+Load Balancer
+Rate Limiter
+

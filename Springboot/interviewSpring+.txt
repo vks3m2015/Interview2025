@@ -1,0 +1,78 @@
+Q - What default library used in Spring for serializing and deserializing??
+    Spring Boot uses Jackson by default for serializing and deserializing request and response objects in your REST APIs.
+	
+Q - Bean Scopes	
+
+How to handle XML content type in REST through spring boot
+
+What changes do we need to do to make a applicatoion spring boot app?
+
+How to connect to database in spring boot app
+
+Pagination in spring boot?
+
+Write a controller that has only access to admin?
+
+pagination spring boot?
+How to send greeting Email to 1 million guys? Java code? Middle ware like Kafka, Messaging QUEUE?
+Cross Origin error?
+how to authenticate user?
+Pagination in spring boot?
+Write a controller that has only access to admin?
+
+what to do to convert a spring boot app into microservice?
+What are different types of dependency injection?
+Difference between RestController and Controller
+@Component and @Service difference
+@Component and @Configuration difference
+@Bean and @Componenet Difference
+@Primary?
+
+@Transactional?? Where is used?  Class level or method level? How it works internally?
+
+How @RequestBody convert http request body to java object?
+Scope of Bean? Life cycle of Bean?
+How to handle flexible/any number of query parameters in controller in Spring Boot?
+
+What is AOP? Where we use??????
+Autoconfiguration? What is main purpose of it?
+
+What are Spring Accuator? How to define custom Health Indicator?
+
+nLogging in Spring Boot?
+Logger, Differnt Level, Precedence of logger
+
+singleton scoped bean has dependency on prototyped scoped bean. how many beans created when asked singleton bean? How to get new prototyped bean every time? 
+
+life cycle of spring bean
+Spring MVC archetecture.
+
+
+Hibernate
+=============
+What is Cascading?
+What is JPA Specification Executor ? where we can use it?
+What are Object states in hibernate?
+
+what is Hibernate Template Class ?
+what is Lazy Loading?
+what is Query Cache in Hibernate?
+Differnt States of Entity in Hibernate?
+Session Factory ? what is its role?
+
+How to joins table in hibernate?
+How to provide 'Where' type of filter in hibernate?
+how to get fixed number of rows in query output rather all rows in hibernate?
+Limit Offset in Hibernate? 
+how transactions are handled? Where we annotate @Transactional
+
+
+
+
+
+
+
+DB
+===
+What is View?
+ 

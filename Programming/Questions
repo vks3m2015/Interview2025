@@ -1,0 +1,303 @@
+1.There is an array [1,2,5,4,8,3] and sum = 7. Find all the sub set array such that sum of elements is 7
+           Example [1+2+4]=7, [2+5]=7, [4+3]=7
+
+   2.  There are two array array1 = [a, f, h, k, m, o, s, r …….. and so on],
+        array2 = [h, k, m. o]. Check that array1 contain array2 or not
+
+3. Given array of characters shuffle it so that no similar character are beside to each other.
+
+4. Check if Linked list contains loop.
+5. Create Balanced binary search tree from sorted array
+
+6. Check if tree is a binary tree or binary search tree or not
+7. given 2 arrays A and B .size of A is m+n and size of B is n . both array are sorted .merge both arrays in A
+
+8. Given a 2D matrix, print all elements of the given matrix in diagonal order
+https://www.geeksforgeeks.org/zigzag-or-diagonal-traversal-of-matrix/
+
+
+
+
+NAGARRO
+--------------------
+1 Qs – Given an unsorted list of repeated elements in an array, Find the element with maximum frequency.
+2 Qs- Given a string containing characters and brackets, find if the brackets are paired in the string.
+3 Qs- (Little Tricky) Given a set of integers, find the third maximum sum of two elements from the set.
+For ex – Array -> 3,6,2,7,8,19,13,5
+Max Sum of two elements is – 19 + 13 = 32 , So u need to find the third maximum sum.
+
+
+1. You’re given a m x m matrix. Write a function to rotate submatrix within the matrix by 90degree clock wise. Function takes x and y as starting row and column coordinate of matrix and N as size of submatrix as argument. Inplace rotation was required. I gave brute force I.e. With extra memory.
+
+2. You are given a sorted array containing both negative and positive values. Resort the array taking absolute value of negative numbers. Your complexity should be O(n) --DONE
+
+Ex. A = {-8,-5,-3,-1,3,6,9}
+Output: {-1,-3,3,-5,6,-8,9}
+3. Wap to find subsets that contains equal sum in an array:
+
+for eg{1,2,3,4,2}->{1,2,3}&&{4,2}
+{1,1,3,3,2,8}->{1,3,3,2}&&{1,8}
+{1,3,4,7}->no subset
+
+1. Check if binary conversion of given number is palindrome or not. Ex: 6 (0110) is palindrome.
+I used a recursive function for binary conversion and then check for palindrome using a loop. Refrain from using inbuilt functions as they wanna check your logic. O(n) time complexity.
+
+2. Separate 0’s and 1’s in that order from a array of only 0’s and 1’s.
+I used partition algorithm (Quick Sort) to do the same. O(n) time complexity.
+
+3. One Sentence (string) is given. find out the words, that has length even and greater than equal to 4 (e.g. 4,6,8.. etc.) and separate them with space.
+e.g. Given String : “abcd abc abcde abcdef”
+Output: “ab cd abc abcde abc def”
+I allocated a new string dynamically, and used two for loops to copy one string to another, adding a space at the middle of the word where word length was >=4 and even. O(n^2) time complexity.
+
+It seems easy but it isn’t. I got to know that this can be minimized to O(n) time complexity in the next round.
+
+Practice all types of array and string questions.
+
+
+
+
+
+
+
+JAVA
+----------
+What modifications should I make in your classes to make them immutable.
+
+
+GENERAL
+---------------
+
+program for finding common elements between three arrays
+reverse a string using recursion
+how will you find the factorial of a large no.
+WAP to find the missing no in an array. eg: I/P: {1,2,3,5,6} O/P: 4
+Wap to print all prime no. upto a given input no.?
+
+
+
+1.Find lost element from a duplicated array
+            https://www.ideserve.co.in/learn/find-the-missing-number-in-the-duplicate-array
+
+    2.
+
+
+
+
+ORACLE
+----------
+
+List prime factorization of numbers from 1 to 10000
+List Armstrong Numbers from 1 to 500
+Write 5 features from 5 classes of Collection Framework
+Find missing number from given Pattern. It was easy but right now I cannot remember the exact pattern
+Find Middle element in LinkedList contains millions of millions data by traverse only once and without using extra memory space.
+Listing Contiguous Elements whose sum is maximum in an array contains signed integers
+Print ODD numbers in one thread and EVEN numbers in another thread, but final print will be in normal sequesnce e.g. 1 2 3 4 5 …
+
+
+https://howtodoinjava.com/interview-questions/real-java-interview-questions-asked-for-oracle-enterprise-manager-project/
+
+
+AMAZON
+============================================
+
+Linked List
+---------------
+Check if Linked list contains loop.
+Merge two sorted linked list into one without any extra space
+Construct a Maximum Sum Linked List out of two Sorted Linked Lists having some Common node(http://www.geeksforgeeks.org/maximum-sum-linked-list-two-sorted-linked-lists-common-nodes/)
+Reverse a linked list
+Adding two polynomials using Linked List ( http://www.geeksforgeeks.org/adding-two-polynomials-using-linked-list/ )
+
+Tree
+---------------
+Create Balanced binary search tree from sorted array
+Check if tree is a binary tree or binary search tree or not (https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/)
+Longest consecutive path in a binary tree (https://www.geeksforgeeks.org/longest-consecutive-sequence-binary-tree/)
+Find the sum of all left leaves in a binary tree (https://www.geeksforgeeks.org/find-sum-left-leaves-given-binary-tree/)
+Given a binary tree along with a value. The question is to find the mirror of that node,the value always exist in the binary tree
+Print tree in a vertical order ( https://www.geeksforgeeks.org/print-binary-tree-vertical-order-set-2/ )
+Zigzag print of a binary tree (https://www.geeksforgeeks.org/level-order-traversal-in-spiral-form/ )
+Delete operation on a BST
+Inorder Successor in Binary Search Tree  https://www.geeksforgeeks.org/inorder-successor-in-binary-search-tree/
+https://www.geeksforgeeks.org/remove-all-nodes-which-lie-on-a-path-having-sum-less-than-k/
+
+
+
+OPTIMIZATION
+--------------
+Given rods with different costs, combine the rods in a way such that you get the minimum cost.
+
+Dynamic Programming
+----------------------
+Minimum number of jumps to reach end (http://www.geeksforgeeks.org/minimum-number-of-jumps-to-reach-end-of-a-given-array/)
+
+
+String
+----------
+Rearrange a string such that no two same characters are adjacent to each other ( https://www.geeksforgeeks.org/rearrange-characters-string-no-two-adjacent/ )
+Given a string,print all the sub-strings that are palindrome [adobe]
+
+
+Array
+-------
+ Given a Sorted array in which all elements are repeated except one element. Find non repeated element in O (log n).
+
+Given an array of integers, replace every number with the next higher number to its right. If a number can’t be replaced, we leave it as-it is.
+For example, the list: 5, 2, 1, 4, 6, 7 needs to be changed to 6, 4, 4, 6, 7, 7  [--------TO SEE--------]
+
+DS for identifying min from given array for index range x to y.
+Segregate even and odd number in the list with out using extra space
+Find the pivot element. ( https://www.geeksforgeeks.org/type-array-maximum-element/ )
+Find the first non-repeating character in a stream of integers
+Maximize number of 0s by flipping a subarray ( http://www.geeksforgeeks.org/maximize-number-0s-flipping-subarray/ )
+[FLIPKART] Minimum steps to reach a destination (https://www.geeksforgeeks.org/minimum-steps-to-reach-a-destination/)
+ http://www.geeksforgeeks.org/sort-array-according-order-defined-another-array/
+
+
+
+Stream of coordinates are given. you need to identify k nearest points for given coordinate at any point of time
+Given dictionary of alien language. You need to find order of alphabets based on dictionary – Topological sorting
+Write a program to output power(m,n)
+3) Given an infinitely long sorted array having -1’s at the end search a value in that array
+4) Provide the complexities for the above questions.
+1)
+2)
+ Given a array with n songs,we have to play all the songs only once.Given only 2 functions
+1)playsong(songid)
+2)getRandom(n) – return the random values in between 1 to n
+Told hashmap approach he told if the getRandom() give the same values million of time then its sucks.So I modified my approach and he was impressed.
+
+2) A kind of design question. Given amazon log files of two days.He asked me to find the users who logged in both the days. Had discussion using Hashmap,he want to optimise further I gave solution using trie with little modification in its structure
+
+struct Trie {
+    int count[2],
+    bool isleaf;
+    Trie *child[26];
+    Trie() {
+          count[0]=count[1]=0;
+          isleaf = false;
+          for(int i=0;i < 26;i++)
+          child[i]=NULL;
+    }
+};
+He appreciated me and left.
+
+Given a 2D matrix with elements 1 and 0, where 1 is land and 0 is water. Find the number of islands. ( https://www.geeksforgeeks.org/find-number-of-islands/ )
+2. Design a data structure which supports operations: insert, delete, find and findAny in constant time.
+Given an array which can be either of the following:
+Non-decreasing
+Non-increasing
+Increasing then decreasing
+Decreasing then increasing
+
+4. Explain heapify function of heap sort. Then explain with code what happens when you remove one element(max/min) from the heap.
+Question 2 : http://www.geeksforgeeks.org/find-a-tour-that-visits-all-stations/
+
+Question 1 : http://www.geeksforgeeks.org/find-smallest-range-containing-elements-from-k-lists/
+
+
+
+
+
+PAYTM
+====================================
+Write code to create mirror image of tree.
+b ) Given an array of arrival and departure time of guests , find minimum no fo rooms required to accommodate guests at any point of time.
+
+Round 2 :
+1. WAP to search a number in a row wise – column wise sorted matrix.
+2. Flatten a linked list.
+3. Discussions around binary and ternary search.
+4. Discussed objective questions of written round.
+
+
+Round 3 :
+1. How will you store a series of mobile nos in memory efficiently (less space).
+e.g mobile nos like 999900001,999900003,999900005,999910006,999910007 … are there.
+DS should be designed such that retreival is not inefficient.
+
+2. Stream of Access logs are given to you with user id , page id and date.
+Design Data structure to find n recent unique visitors and page they visited.
+
+
+
+
+Nagarro
+==================
+2 Qs- Given a string containing characters and brackets, find if the brackets are paired in the string.
+3 Qs- (Little Tricky) Given a set of integers, find the third maximum sum of two elements from the set.
+For ex – Array -> 3,6,2,7,8,19,13,5
+
+
+
+
+
+
+
+HSC
+==========
+1. Write a program to find how many times a word occurs in a string.
+Eg : this is abc company.I like this company abc.
+
+Write a program to limit the maximum creation of objects as 5.
+WAP to check whether a given number is an Armstrong number.
+WAP to find top 2 numbers from an array.
+WAP to implement a Queue using two stacks.
+WAP to return the index position of the first occurance of '1' in the following array
+[0,0,0,0,0,,,,,,,,,1,1,1,,,,,,,1]
+
+Implement Queue using Stacks
+check given number is palindrome or not.
+
+find largest Sting from a String having having character in English alphabet order.
+
+Which is faster Implementing the Interface or extending the abstract class.
+
+find the all not repeated substring from a string.
+find the missing number from an array.
+
+Implement a doubly linkedlist.
+what are fail-fast and concurrent hasmaps?
+inter-thread communications
+different verbs of rest webservices.
+
+Implement Queue using stacks.
+Implement circular doubly linked list.
+Write code to check wether string is palindrome
+
+
+
+
+
+============================================== MY INTERVIEW PROGRAMS ===============
+
+max occurring character in a string
+given two sorted array find median for combined sorted array ->  https://www.geeksforgeeks.org/median-of-two-sorted-arrays/
+sqrt of a number without using in built method
+
+find maximum distance from origin position , a man movement is according to a string FBBF?F....  ( F - forward, B - backward, ? - any of it)
+max of array element except current element ( area of rectangle photo)
+
+
+next third character
+
+
+find the majority element i.e. an element which occurs more than half the length of array times. e.g. if we have an array [2, 3, 4, 2, 5, 2, 2, 2]. Here length of array is 8. and 2 occurs 5 times. and 5 > 8/2 i.e. 4. so print 2. In all other cases, return -1; [nagarro]
+https://www.geeksforgeeks.org/majority-element/
+
+
+longest decreasing subsequence
+
+if a string is permutation of other ?
+sort on the basis of number of occurance     7 1 1 1 9 9 9 9 4 4 4 4 4
+
+
+
+
+
+
+
+
+
