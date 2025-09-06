@@ -3,9 +3,18 @@ API Gateway
 Service Discovery
 Config server
 Fault Tolerance
+   -Timeouts
+   -Retry
    -Circuit Breaker
    -Resilience4j
 Distributed Transaction
+    -Choreography  .Decentralized
+    -Orchestrator  .Centralized
+    -2PC
+    -3PC
+    -DeadLetter Queues
+    -Outbox Pattern
+    -Ex - order---payment---inventory--shipping
 Log aggregation
 Log Tracing
 Load Balancer

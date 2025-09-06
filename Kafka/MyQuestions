@@ -1,0 +1,20 @@
+why kafka topics have partitions?
+- partitions are the core mechanism that allows Kafka to be a highly scalable,
+  fault-tolerant, and performant distributed streaming platform
+
+how to maintain order of messages in kafka
+-  through the use of partitions and message keys
+
+offset management ??
+
+isr (in sync replica)
+
+retention period ?
+The default retention period in Apache Kafka, based on time, is 7 days, or 168 hours. This is configured through the log.retention.hours parameter in the Kafka broker properties.
+
+assignment of data to a specific partition within a topic ?
+- using a Key:
+  If a message includes a key, Kafka will use a hash of this key to determine the partition
+- No Key (Round-Robin):
+  If a message is sent without a key (or with a null key), Kafka will distribute the messages across the available partitions in a round-robin fashion
+- Producers can also implement a custom partitioner logic. This allows developers to define their own rules for assigning messages to partitions based on specific business logic or data characteristics, overriding the default key-based hashing or round-robin behavior

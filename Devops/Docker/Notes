@@ -1,0 +1,10 @@
+Benefit of docker  -
+The main benefits of Docker are -
+  - Portability,
+  - Consistency,
+  - Efficiency,
+  - Isolation,
+  - Scalability
+
+Docker containers package an application with its dependencies, ensuring it runs the same way across
+any environment, from a laptop to the cloud.

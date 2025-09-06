@@ -1,0 +1,10 @@
+byte:  1 byte signed integer.
+short: 2 Byte signed integer.
+int: 4 byte signed integer.
+long: 8 byte signed integer.
+float: 4 byte single-precision floating-point number.
+double: 8 byte double-precision floating-point number.
+char: 2 byte Unicode character.
+boolean: Represents a logical value, either true or false
+
+-------------------------
