@@ -1,0 +1,14 @@
+how to build scalable microservices?
+- Break down the application into small, independent services, each responsible for a specific
+  business capability (bounded context).
+  This promotes autonomy and allows individual services to scale independently
+
+- Utilize asynchronous communication patterns, such as message queues (e.g., Apache Kafka, RabbitMQ)
+  for inter-service communication. This decouples services, improves resilience, and
+  enables eventual consistency.
+
+- Containerization and Orchestration
+
+- Utilize load balancers to distribute incoming traffic evenly across multiple instances of a service.
+
+- Implement resilience patterns like circuit breakers, retries with backoff, and graceful degradation to handle failures and prevent cascading issues.
